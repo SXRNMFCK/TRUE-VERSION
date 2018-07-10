@@ -892,7 +892,10 @@ ul li{
 .features {
     background-color: #131415;
     width: 100%;
-
+    min-width: 69.5%;
+    min-height: 570px;
+    display: flex;
+    flex-flow: column; 
     margin-bottom: 56px;
 }
 
@@ -910,7 +913,6 @@ ul li{
     font-family: 'Open-Sans-Bold';
     font-size: 49px;
     line-height: 1.2;
-
     margin: 7%;
 }
 
@@ -1375,7 +1377,7 @@ ul li{
 }
 
 
-.cta{
+.addservices{
     height: 171px; 
     display: flex;
     justify-content: center;
@@ -1385,7 +1387,7 @@ ul li{
     margin-bottom: 61px;
 }
 
-.cta__banner{
+.addservices__banner{
     height: 100%;
     width: 1060px;
 
@@ -1394,7 +1396,7 @@ ul li{
     align-items: center;
 }
 
-.cta__banner-text{
+.addservices__banner-text{
     max-width: 636px;
     color: #fff;
     font-family: 'Open-Sans-Light';
@@ -1404,7 +1406,7 @@ ul li{
     line-height: 1.67;
 }
 
-.coll-to-ation-expression{
+.call-to-ation-expression{
     font-family: 'Open-Sans-Bold';
     font-weight: bold;
     font-style: normal;
