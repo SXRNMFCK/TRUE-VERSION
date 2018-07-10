@@ -982,10 +982,6 @@ ul li{
 }
 
 
-.news-container-wrap{
-    margin-bottom: 67px;
-}
-
 .news-container{
     display: flex;
     flex-flow: column;
@@ -1146,7 +1142,7 @@ ul li{
 .pagination-control{
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 .pagination, .pagination__list{
@@ -1156,7 +1152,8 @@ ul li{
 
 .pagination{
     justify-content: center;
-    align-items: center
+    align-items: center;
+    margin-bottom: 67px;
 }
 
 .pagination__list{
